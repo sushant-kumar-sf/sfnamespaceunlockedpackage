@@ -1,12 +1,23 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": ".\\force-app",
+            "package": "NamespaceUnlockedPackageTest",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "name": "sfnamespaceunlockedpackage",
+    "namespace": "unlockptest",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "55.0",
+    "packageAliases": {
+        "NamespaceUnlockedPackageTest": "0Ho5i0000008ORXCA2",
+        "NamespaceUnlockedPackageTest@0.1.0-1": "04t5i000000QCXYAA4"
     }
-  ],
-  "name": "sfnamespaceunlockedpackage",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0"
 }
